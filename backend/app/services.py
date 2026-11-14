@@ -1,6 +1,6 @@
 import pandas as pd
 
-from app.module import ExpenseCreate, Expense
+from app.models import ExpenseCreate, Expense
 from app.utils import read_expenses, save_expenses
 
 def add_expense(expense: ExpenseCreate):
