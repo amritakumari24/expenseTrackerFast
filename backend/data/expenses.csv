@@ -3,3 +3,19 @@ id,title,amount,category,date,notes
 3,roti sbji,500.0,lucnh,2026-11-16,Aaj milega tasty khana
 4,sweets,500.0,lunch,2026-11-16,Aaj milega tasty khana
 5,sweets,1500.0,lunch,2026-11-16,chhath puja special
+6,test lunch,150.0,Food,2026-11-17,Testing expense creation
+7,test lunch,150.0,Food,2026-11-17,Testing expense creation
+8,test lunch,150.0,Food,2026-11-17,Testing expense creation
+9,test lunch,150.0,Food,2026-11-17,Testing expense creation
+10,Test Dinner,200.0,Food,2026-11-17,Testing get by ID
+11,test lunch,150.0,Food,2026-11-17,Testing expense creation
+12,Test Dinner,200.0,Food,2026-11-17,Testing get by ID
+13,test lunch,150.0,Food,2026-11-17,Testing expense creation
+14,Test Dinner,200.0,Food,2026-11-17,Testing get by ID
+15,Updated Lunch,250.0,Food,2026-11-17,Updated notes
+16,test lunch,150.0,Food,2026-11-17,Testing expense creation
+17,Test Dinner,200.0,Food,2026-11-17,Testing get by ID
+18,Updated Lunch,250.0,Food,2026-11-17,Updated notes
+19,test lunch,150.0,Food,2026-11-17,Testing expense creation
+20,Test Dinner,200.0,Food,2026-11-17,Testing get by ID
+21,Updated Lunch,250.0,Food,2026-11-17,Updated notes
