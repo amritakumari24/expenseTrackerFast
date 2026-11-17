@@ -65,3 +65,36 @@ def remove_expense(expense_id:int):
     return{
         "message": "Expense deleted successfully!"
     }
+
+from app.analytics import get_total_spending
+@app.get("/analytics/total")
+def total_spending():
+    total = get_total_spending()
+    return {"total_spending" : total}
+
+from app.analytics import get_category_spending
+@app.get("/analytics/category")
+def category_spending():
+    result = get_category_spending()
+    return {
+        "category_spending": result 
+    }
+
+
+from app.analytics import get_average_expense
+@app.get("/analytics/average")
+def average_expense():
+    average = get_average_expense()
+    return {
+        "average expense" : average
+    }
+
+
+from app.analytics import get_monthly_spending
+@app.get("/analytics/monthly")
+def monthly_spending():
+    result = get_monthly_spending()
+    return {
+
+        "monthly spending": result
+    }
